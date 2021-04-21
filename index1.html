@@ -7,16 +7,131 @@
 
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
 
     <title>Hello, world!</title>
   </head>
   <body>
-  <div class="jumbotron jumbotron-fluid">
-  <div class="container">
-    <h1 class="display-4">Hello World!</h1>
+   
+  <nav class="navbar navbar-expand-lg navbar-light bg-light">
+  <a class="navbar-brand" href="#">Navbar</a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  <div class="collapse navbar-collapse" id="navbarNav">
+    <ul class="navbar-nav">
+      <li class="nav-item active">
+        <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#">Features</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#">Pricing</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
+      </li>
+    </ul>
   </div>
-</div>
+</nav>
 
+<div class="jumbotron text-center">
+  <h1 class="display-4">Hello, world!</h1>
+  <p class="lead"></p>
+  <hr class="my-4">
+  
+</div>
+     <section class ="about" id= "about">
+     <div class ="container"></div>
+      <div class ="row">
+        <div class ="col-sm-6">
+          <h2 class ="text-center">Tentang</h2>
+          <hr>
+        </div>
+        <div class ="col-sm-6">
+          <h2 class ="text-center">Kami</h2>
+          <hr>
+        </div>
+      </div>
+      <div class ="row">
+    <div class= "col-sm-6">
+      <p class ="text-center">lalala</p>
+    </div>
+    <div class= "col-sm-6 ">
+      <p class ="text-center">lalala</p>
+    </div>
+  </div>
+</section>
+
+<section class="portfolio" id="portfolio">
+  <div class ="container">
+    <div class ="col-sm-12">
+      <h2 class ="text-center">Portfolio</h2>
+      <hr>
+    </div>
+    </div>
+  </div>
+</section>
+<section class ="contact" id="contact">
+  <div class ="row">
+    <div class ="col-sm-12">
+      <h2 class ="text-center">Contact</h2>
+      <hr>
+    </div>
+    
+    <div class ="row">
+      <div class ="col-sm-12 text-center">
+        
+        <form>
+          <div class="form-group">
+            <label for ="nama">Nama</label>
+            <input type="text" id="nama" class="form-control" placeholder="Masukkan Nama">
+            
+          </div>
+           <div class="form-group">
+            <label for ="email">Email</label>
+            <input type="email" id="email" class="form-control" placeholder="Masukkan Email">
+            
+          </div>
+          <div class="form-group">
+            <label for ="telp">No. Telepon</label>
+            <input type="tel" id="telp" class="form-control" placeholder="Masukkan No Telepon">
+          </div>
+          <select class ="form-control">
+              <option>-- Pilih Kategori --</option>
+              <option>Web Design</option>
+              <option>Web Development</option>
+          </select>
+          
+  <div class="form-group">
+    <label for="exampleFormControlTextarea1">Pesan</label>
+    <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+  </div>
+         <button type="submit" class="btn btn-primary">Kirim Pesan</button>  
+        
+        
+        </form>
+      </div>
+    </div>
+
+  </div>
+  
+</section>
+
+<footer>
+  <div class="container">
+    <div class ="row">
+      <div class ="col-sm-12">
+        <p class ="text-center">Copyright 2019</p>
+        
+      </div>
+      </div>
+
+    </div>
+    
+  
+</footer>
 
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
